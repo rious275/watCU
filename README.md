@@ -1,7 +1,3 @@
-*프로젝트 소개는 아래를 참고해서 자유롭게 작성해주세요.그대로 따라서 작성하면, 다른 프로젝트와 획일화 되어서 특별해보이지 않습니다. 나만의 언어로 나의 소중한 프로젝트를 특별하게 설명해주세요*
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/daa3496e-4454-4df1-91a9-76eac40dd36a/Screen_Shot_2021-07-18_at_2.29.26_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/daa3496e-4454-4df1-91a9-76eac40dd36a/Screen_Shot_2021-07-18_at_2.29.26_PM.png)
-
 ### watCU **프로젝트 Front-end / Back-end 소개**
 
 - 왓챠 피디아 기능(평가, 추천 등) 기능을 활용하여 편의점 브랜드 CU의 상품을 소개하는 기획을 추가한 클론 프로젝트입니다.
@@ -13,9 +9,9 @@
 - 개발기간 : 2021/7/5 ~ 2021/7/16
 - 개발 인원
 
-    👉  Front-end : 성정준, 최민재, 최재상 
+  👉 Front-end : 성정준, 최민재, 최재상
 
-    👉  Back-end : 김예랑, 이신재(PM)
+  👉 Back-end : 김예랑, 이신재(PM)
 
 ## **프로젝트 선정이유**
 
@@ -26,7 +22,7 @@
 
 ### **데모 영상(이미지 클릭)**
 
-*유투브 영상 링크나 캡쳐 이미지 넣어주세요.*
+_유투브 영상 링크나 캡쳐 이미지 넣어주세요._
 
 ## **적용 기술 및 구현 기능**
 
@@ -34,7 +30,7 @@
 
 > Front-End : Javascript, React.js library, sass, react-router-dom
 
-> Back-End : Python, Django web framework,  PyJWT, Bcrypt, My SQL, AqueryTool, AWS(EC2,RDS)
+> Back-End : Python, Django web framework, PyJWT, Bcrypt, My SQL, AqueryTool, AWS(EC2,RDS)
 
 ### 협업 **도구**
 
@@ -42,11 +38,12 @@
 
 ### **구현 기능**
 
-### 💻  Front-end
+### 💻 Front-end
 
 ### <정준>
 
 - Login/ Signup
+
   - JWT, LocalStorage를 사용하여 구현
   - LocalStorage에 Token 여부에 따라 login/logout 구현
 
@@ -55,12 +52,10 @@
   - 각 탭 클릭시 그에 맞는 queryString으로 fetch 하였음
   - 무한스크롤 구현(각 탭에 맞는 컨텐츠)
   - threeDot클릭시 클락한 상품에 관한 product modal 오픈
-   
 - Product Modal
   - Detail 페이지와 evaluating 페이지에서 사용하는 product modal component 구현
   - 각 상품의 id에 맞게 '먹고싶어요', '먹어봤어요' 를 백엔드와 데이터통신해서 값을 저장
   - Token 을 가지고 있지 않으면 값이 저장되지 않고 css효과 또한 적용되지 않게 구현
-  
 - Nav
   - Token 여부에 따라 볼수있는 메뉴가 달라지게 구현 (로그인/회원가입) => (유저아이콘/평가하기)
   - 반응형으로 구현
@@ -70,9 +65,9 @@
 ### <민재>
 
 - **메인 페이지**
-    - path parameter를 이용한 Detail 페이지로의 데이터 이동
-    - state를 활용, style - translateX 값 변경을 통한 슬라이드 이동 구현
-    - data를 활용한 실시간 평가 개수 적용
+  - path parameter를 이용한 Detail 페이지로의 데이터 이동
+  - state를 활용, style - translateX 값 변경을 통한 슬라이드 이동 구현
+  - data를 활용한 실시간 평가 개수 적용
 
 ### <재상>
 
@@ -84,7 +79,7 @@
   - watCU의 중요 기능이 되는 평점을 별점으로 구현
   - 별점과 실시간으로 연동되는 별점그래프를 구현
 
-### 💻  Back-end
+### 💻 Back-end
 
 ### <공통> Modeling
 
